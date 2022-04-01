@@ -1,0 +1,7 @@
+.backdrop {
+    background: black ;
+    opacity: 1;
+    z-index: 10;
+    margin: 0 2rem 2rem 2rem;
+  }
+  

@@ -1,0 +1,133 @@
+.main {
+    margin-left: 2rem;
+}
+
+.tag {
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: grid;
+    gap: 0 8px;
+    grid-auto-flow: row;
+    grid-template-areas: ". .";
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.title {
+    font: normal normal 600 24px/29px Montserrat;
+    color: #ffffff;
+    letter-spacing: 0px;
+    margin: 1rem 0 1rem 0
+}
+
+.price-tag {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e0e0e0;
+    height: 12em;
+    margin: 2rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.author {
+    font: normal normal 300 12px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #ff9271;
+    margin: 1rem 0 1rem 0
+}
+
+.description {
+    color: #ffffff;
+    font: normal normal 300 14px/22px Montserrat;
+    letter-spacing: 0px;
+    margin: 1rem 0 1rem 0
+}
+
+.details {
+    background: #0f1317;
+    height: 14rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 8px;
+}
+
+p {
+    color: white;
+}
+
+.price-button-cont {
+    display: grid;
+    gap: 0 8px;
+    grid-auto-flow: row;
+    grid-template-areas: ". .";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 10px 0;
+}
+
+.sales-details img {
+    width: 4%;
+    margin-right: 4px;
+}
+
+.sales-details {
+    margin-top: 10px;
+    color: #d13030;
+    display: flex;
+    align-items: center;
+}
+
+.video {
+    background: blue;
+    height: 15em;
+    margin: 2rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.left-container {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+    padding: 1rem;
+}
+
+.price-button-cont button {
+    width: 100%;
+}
+
+.price-button-cont button:hover {
+    background: white;
+    color: #d13030;
+    border: 1px solid #d13030;
+}
+
+.price-t {
+    width: max-content;
+    font: normal normal bold 24px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+}
+
+.price-tt {
+    width: max-content;
+    font: normal normal 300 17px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+}
+
+h3 {
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #4e4e4e;
+}
+
+.details-para {
+    margin-bottom: 0.5rem;
+    font: normal normal 300 13px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
